@@ -1,0 +1,42 @@
+/*margin: T R B L top right bottom left*/
+body {
+  border: 20px solid #bdc3c7;
+  width: 50%;
+  margin: 20px auto;
+  padding: 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p, h1, blockquote {
+  margin: 0 0 16px 0;
+}
+
+article:first-child {
+  border-bottom: 2px solid #bdc3c7;
+  padding-bottom: 16px;
+  margin-bottom: 2%;
+}
+
+.date {
+  margin-bottom: 26px;
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+h1 {
+  margin-bottom: 26px;
+  color: #2c3e50;
+  font-weight: 900;
+}
+
+blockquote {
+  border-left: 5px solid #bdc3c7;
+  width: 95%;
+  padding-left: 4px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
